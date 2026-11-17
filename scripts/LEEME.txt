@@ -1,0 +1,24 @@
+SISTEMA DE GESTION DE BIBLIOTECA - EJECUTABLE
+=============================================
+
+Requisito: Java 17 o superior (https://adoptium.net)
+
+COMO INICIAR
+  1. Doble clic en INICIAR.bat
+  2. Esperar a que se abra el navegador en http://localhost:8080
+  3. Iniciar sesion con:
+       Bibliotecario:  admin   / Admin123
+       Lector:         jperez  / Lector123
+
+BASE DE DATOS
+  - Sin configurar nada: MODO DEMO con base de datos en memoria (H2).
+    Los datos de ejemplo se cargan solos y se reinician al cerrar.
+  - Con MySQL 8: copiar application-local.properties.example como
+    application-local.properties (en esta misma carpeta) y escribir
+    la contrasena de MySQL. La base "biblioteca" se crea sola.
+
+DOCUMENTACION DE LA API (Swagger)
+  http://localhost:8080/swagger-ui.html
+
+DETENER
+  Cerrar la ventana negra de INICIAR.bat
