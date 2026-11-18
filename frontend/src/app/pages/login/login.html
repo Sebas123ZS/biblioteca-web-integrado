@@ -60,19 +60,7 @@
             @else { Iniciar sesión <lucide-icon name="arrow-right" [size]="17" /> }
           </button>
 
-          <div class="demo">
-            <span class="sep"><span>Usuarios de prueba</span></span>
-            <div class="demo-btns">
-              <button type="button" class="demo-card" (click)="usarDemo('admin', 'Admin123')">
-                <span class="ic violet"><lucide-icon name="shield-check" [size]="16" /></span>
-                <span><b>Bibliotecario</b><small>admin</small></span>
-              </button>
-              <button type="button" class="demo-card" (click)="usarDemo('jperez', 'Lector123')">
-                <span class="ic blue"><lucide-icon name="user" [size]="16" /></span>
-                <span><b>Lector</b><small>jperez</small></span>
-              </button>
-            </div>
-          </div>
+          
 
           <p class="switch">¿Aún no tienes cuenta? <button type="button" (click)="cambiarModo('registro')">Regístrate como lector</button></p>
         </form>
